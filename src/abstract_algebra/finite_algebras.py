@@ -21,9 +21,9 @@ import pprint as pp
 import re
 
 from sympy.ntheory import isprime
-from my_math import divisors, relative_primes
-from cayley_table import CayleyTable
-from permutations import Perm
+from .my_math import divisors, relative_primes
+from .cayley_table import CayleyTable
+from .permutations import Perm
 
 
 class FiniteOperator:

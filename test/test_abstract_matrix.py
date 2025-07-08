@@ -1,6 +1,6 @@
 from unittest import TestCase
-import finite_algebras as alg
-import abstract_matrix as mat
+import abstract_algebra.finite_algebras as alg
+import abstract_algebra.abstract_matrix as mat
 import numpy as np
 
 class TestAbstractMatrix(TestCase):
